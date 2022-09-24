@@ -11,9 +11,79 @@ html {
     --naranja-regular: #F95F00;
     --narnaja-bold: #EE1D02;
     --negro: #11131C;
-    }
+        }
+
+    /*---------------------------------------*/    
+
+    /* aca se incorporo los font al proyecto*/
+
+@font-face {
+    font-family: Montserrat-bold;
+    src: url('./assests/font/MONTSERRAT-BOLD.OTF');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Montserrat-bolder;
+    src: url('./assests/font/MONTSERRAT-EXTRABOLD.OTF');
+    font-weight: bolder;
+}
+@font-face{
+    font-family: FiraSans-Heavy;
+    src: url('./assests/font/FiraSans-Heavy.otf');
+}
+
+@font-face{
+    font-family: FiraSans-Regular;
+    src: url('./assests/font/FiraSans-Regular.otf');
+}
+/* ------------------------------------------------------*/
+/* ESTILOS SESIONES 4, 5, 6,  Y 8*/
+/* ------------------------------------------------------*/
+
+/* -------------------*/
+/* ESTILOS de sesion 4*/
+/* -------------------*/
+.h2 {
+    font-family: 'Montserrat-bolder';
+}
+/* -------------------*/
+/* ESTILOS de sesion 5*/
+/* -------------------*/
+
+/* para la sesion 5 cree las clases .gruesoText .pesoText y .topText 
+para dar un poco mas de oscuridad a las letras y para y para dar un poco de margen*/
+
+.gruesoText{
+    font-weight: 650;
+}
+.pesoText{
+    font-weight: 550;
+    line-height: 1em;
     
-/*background: #F5F5F5;*/
+}
+.topText{
+    margin-top: 20px;
+}
+
+/* -------------------*/
+/* ESTILOS de sesion 6*/
+/* -------------------*/
+
+/* para la sesion 6 cree clases liEstilo y poder quitar las viñetas de puntos  */
+
+.liEstilo{
+    list-style: none;
+}
+.margenSeccion6{
+    margin-top: 400px;
+}
+/* .bottonText{
+    margin-bottom: 1px;
+} */
+/* ------------------------------------------------------*/
+/* FIN DE ESTILOS SESIONES 4, 5, 6,  Y 8*/
+/* ------------------------------------------------------*/
 
 /* H1 */
 
@@ -144,5 +214,8 @@ border-radius: 7px; }
 button {	/* Normal Telegram */
 background: #28BFFF;
 border-radius: 7px; }
+
+
+
 
 

@@ -1,0 +1,146 @@
+/* Página */
+background: #F5F5F5;
+
+
+/* H1 */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 38px;
+line-height: 46px;
+color: var(--negro);
+
+
+/* H2 */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 34px;
+line-height: 41px;
+color: var(--negro);
+
+
+/* H3 */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 37px;
+/* identical to box height */
+color: var(--negro);
+
+
+/* H4 */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 32px;
+/* identical to box height */
+color: var(--negro);
+
+
+/* H5 */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+color: var(--negro);
+
+
+/* H6 */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+color: var(--negro);
+
+
+/* P Big */
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: var(--negro);
+
+
+/* P Big Bold */
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: var(--negro);
+
+
+/* P */
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+color: var(--negro);
+
+
+/* P Bold */
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+color: var(--negro);
+
+
+/* P Small */
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+color: var(--negro);
+
+
+/* P Small Bold */
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 11px;
+line-height: 13px;
+color: var(--negro);
+
+
+---------------------------
+
+html {
+--azul-light: #F5F8FF;
+--azul-regular: #114AD6;
+--azul-tres: #062EC0;
+--azul-cuatro: #06238C;
+--azul-bold: #031A70;
+--naranja-light: #FFF7F5;
+--naranja-regular: #F95F00;
+--narnaja-bold: #EE1D02;
+--negro: #11131C;
+}
+
+--------------------------
+
+button {	/* Normal Azul */
+background-color: var(--azul-regular)
+border-radius: 7px; }
+
+button {	/* Normal WhatsApp */
+background: #3CC763;
+border-radius: 7px; }
+
+button {	/* Normal Telegram */
+background: #28BFFF;
+border-radius: 7px; }
+

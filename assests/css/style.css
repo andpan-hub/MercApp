@@ -55,20 +55,30 @@
     }
 
     .pesoText {
-        font-weight: 550;
+        /* font-family: 'Fira Sans'; */
+        font-weight: 500;
         line-height: 17px;
-        color: #000000;
+        color: var(--negro);
+
+
     }
 
     .gruesoText {
-        font-weight: 650;
-        color: #000000;
+        /* font-family: 'Fira Sans'; */
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: var(--negro);
         margin-bottom: 30px;
     }
 
     .gruesoh2 {
         font-family: 'Montserrat';
-        color: #000000;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        color: var(--negro);
+        color: #000000; 
     }
 
     /* -------------------*/
@@ -149,10 +159,11 @@ para dar un poco mas de oscuridad a las letras y para y para dar un poco de marg
 
     }
 
-    .logoNegro8{
-  
+    .logoNegro8 {
+
         margin-top: 1px;
-    } 
+    }
+
     .gruesoText8 {
         font-weight: 800;
     }
@@ -164,7 +175,7 @@ para dar un poco mas de oscuridad a las letras y para y para dar un poco de marg
     /* ------------------------------------------------------*/
     /* FIN DE ESTILOS SESIONES 4, 5, 6, 7 Y 8*/
     /* ------------------------------------------------------*/
-    
+
 
 
     /* H1 */

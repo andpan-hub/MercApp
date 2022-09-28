@@ -1,28 +1,128 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
 
+    <link href="./assets/css/style.css" rel="stylesheet">
 
-<link href="./assets/css/style.css" rel="stylesheet">
-
+    <link href="style.css" rel="stylesheet">
     <title>MercApp</title>
 
 </head>
+
 <body>
+    <header>
+        <img src="assets/img/png/imagen-degradado.png" alt="degradado">
+
+        <img src="assets/img/png/img-header-2.png" alt="imgHeader">
+
+        <nav>
+            <img src="assets/img/vector/Logo-Vector-Blanco.svg" alt="mercapp" width="40px">
+
+            <ul>
+                <li>
+                    <a href="#inicio">Inicio</a>
+                </li>
+                <li>
+                    <a href="#como">Cómo funciona?</a>
+                </li>
+                <li>
+                    <a href="#clientes">Clientes</a>
+                </li>
+                <li>
+                    <a href="#footer">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+
+        <h1 id="inicio">Crea tu tienda online <br>desde tu telefono móvil</h1>
+
+        <button type="button">
+            <img src="assets/img/png/icono-mercado.png" alt="iconoMercado"> Quiero MercApp</button>
+        <img src="assets/img/png/curva-imagen-corte-video.png" alt="corteVideo">
+    </header>
+
+    <main>
+
+        <section class="seccion1">
+
+            <img src="assets/img/png/Logo-Vector-Blanco.png" alt="logo">
+            <img src="assets/img/png/imagen1.png" alt="imgChico">
+
+            <article>
+                <section>
+                    <h2><span>Crea tu tienda</span> online <br> desde tu <span>telefono móvil 
+                    </span></h2>
+                    <p>Usa la app de mensajería de tu preferencia</p>
+                </section>
+                <section>
+                    <button type="button">
+                        <img src="assets/img/vector/icono-whatsapp.svg" alt="iconoWhatsApp">
+                        WhatsApp</button>
+
+                    <button type="button">
+                        <img src="assets/img/vector/icono-telegram.svg" alt="iconoTelegram">
+                        Telegram</button>
+                </section>
+                <section>
+                    <img src="assets/img/png/imagen-envia-whatsapp.png" alt="enviaWhatsApp">
+                    <p>Envia un WhatsApp <br>
+                        <span>con la palabra Hola</span><br>
+                        al +34 652.436.305</p>
+                </section>
+                <section>
+                    <h6>Tienes una duda?</h6>
+                    <p>Te ayudamos,<span>clic aqui.</span>
+                    </p>
+                    <img src="assets/img/png/imagen-dudas.png" alt="imgDudas">
+                </section>
+            </article>
+        </section>
+        <div>
+            <img src="assets/img/vector/icono-worlwide.svg" alt="planeta">
+            <h6>Presencia en <span>18 Paises</span></h6>
+        </div>
+        <div>
+            <img src="assets/img/vector/icono-tiendas.svg" alt="imgTienda">
+            <h6><span>+1.000</span>Tiendas Creadas</h6>
+        </div>
+        <div>
+            <img src="assets/img/vector/icono-productos.svg" alt="productos">
+            <h6><span>+20.000</span>Productos</h6>
+        </div>
+        <section class="seccion2">
+
+        </section>
+        <section class="seccion3">
+            <h2 id="como">¿como funciona?</h2>
+            <div>
+                <img src="assets/img/png/imagen2.png" alt="tablet">
+            </div>
+            <article>
+                <img src="assets/img/vector/icono-1.svg" alt="uno">
+                <h4>Somos una app, pero en WhatsApp y Telegram</h4>
+                <p>MercApp es una heramienta que puede ser utilizada de una forma sencilla por cualquier tienda, pyme o negocio en sólo 6 respuestas a un WhatsApp o Telegram.</p>
+                <p>Luego puedes introducir tus productos, eso se hace de dos maneras con tres respuestas por producto:</p>
+               <img src="assets/img/vector/imagen-producto.svg" alt="producto">
+              <div><hr>o<hr></div>
+               <img src="assets/img/vector/imagen-productos.svg" alt="productos">
+            </article>
+        </section>
+
             
 <!---------------  parte de Sonia------------>
 <!---------------  sesion 4----------------->
@@ -49,9 +149,9 @@
                 </div>
             </div>
         </section>
-<!---------  sesion 5---------->
+        <!---------  sesion 5---------->
 
-    <section class="seccion5 bottonImagen">
+        <section class="seccion5 bottonImagen">
             <div class="container text-start">
                 <div class="row align-items-center">
                     <div class="col-8">
@@ -68,9 +168,9 @@
 
             </div>
 
-     
-    </section>
-<!------------  sesion 6------------->      
+
+        </section>
+        <!------------  sesion 6------------->      
 
         <section class="seccion6 ">
             <div class="container text-start">
@@ -80,7 +180,7 @@
                             <img src="./assets/img/png/icono-4.png" alt="icono de numero 4 redondo" class="img-circle  ">
                             <p class="topText gruesoh2   h2">Todo esto al alcance </p>
                             <p class="gruesoh2  h2"> de tu Whatsaap</p>
-    
+
                         </div> 
                         <ul class="list-group  ulestilo">
                             <li  class="liEstilo pesoText"> <img src="./assets/img/png/icono-checked.png" alt="signo de check" class="img-circle">Continúa conectado a tus clientes.</li>
@@ -100,17 +200,17 @@
                 </div>
             </div>
         </section>
-<!--------------------sesion 7-------------------->  
+        <!--------------------sesion 7-------------------->  
         <section class="seccion7 topImagen bottonImagen">                     
             <div class="col-md-12">
             <img src="./assets/img/png/banner-mercapp-imcommerce.png" class="rounded mx-auto d-block" alt="barnner del mundo"     width="80%">
             </div>
         </section>
-<!----------------sesion 8-----------------ordenadorCarrito8--->
+        <!----------------sesion 8-----------------ordenadorCarrito8--->
 
-       
-<section class="seccion8 bottonImagen">
-    <div class="container text-start">
+
+        <section class="seccion8 bottonImagen">
+        <div class="container text-start">
         <div class="row align-items-center">
             <div class="col-7  centrarContenido">
 
@@ -130,12 +230,12 @@
 
         </div>
 
-    </div>  
-</section>
+        </div>  
+        </section>
         <section class="seccion9"></section>
         <section class="seccion10"></section>
         <section class="seccion11"></section>
-       
+
     </main>
 
     <footer></footer>
@@ -143,6 +243,8 @@
 
 <!-- JavaScript Bundle with Popper -->
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
 
 </html>

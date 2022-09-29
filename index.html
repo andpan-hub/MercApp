@@ -2,137 +2,210 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- CSS only -->
+  <!-- CSS only -->
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
-    <link href="style.css" rel="stylesheet">
-    <title>MercApp</title>
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <title>MercApp</title>
 
 </head>
 
 <body>
-    <header>
-        <img src="assets/img/png/imagen-degradado.png" alt="degradado">
 
-        <img src="assets/img/png/img-header-2.png" alt="imgHeader">
+  <div class="container-fluid"> 
 
-        <nav>
-            <img src="assets/img/vector/Logo-Vector-Blanco.svg" alt="mercapp" width="40px">
+    <nav class="navbar navbar-expand-lg fixed-top px-5">
 
-            <ul>
-                <li>
-                    <a href="#inicio">Inicio</a>
-                </li>
-                <li>
-                    <a href="#como">Cómo funciona?</a>
-                </li>
-                <li>
-                    <a href="#clientes">Clientes</a>
-                </li>
-                <li>
-                    <a href="#footer">Contacto</a>
-                </li>
-            </ul>
-        </nav>
+      <a class="navbar-brand " href="#"><img src="assets/img/vector/Logo-Vector-Blanco.svg" alt="mercapp"
+          width="50px"></a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active text-white" aria-current="page" href="#inicio">Inicio</a>
+          <a class="nav-link text-white" href="#como">Cómo funciona?</a>
+          <a class="nav-link text-white" href="#clientes">Clientes</a>
+          <a class="nav-link text-white" href="#footer">Contacto</a>
 
-        <h1 id="inicio">Crea tu tienda online <br>desde tu telefono móvil</h1>
+        </div>
+      </div>
+    </nav>
 
-        <button type="button">
-            <img src="assets/img/png/icono-mercado.png" alt="iconoMercado"> Quiero MercApp</button>
-        <img src="assets/img/png/curva-imagen-corte-video.png" alt="corteVideo">
+    <header class="row">
+
+       <img  id="imgDegradado"  src="assets/img/png/imagen-degradado.png" alt="degradado">
+
+      <img class="img-fluid" src="assets/img/png/img-header-2.png" alt="imgHeader" width="100%">
+
+      
+      <div id="cajaBtnAnd">
+        <h1 class="text-center 
+            text-white text-nowrap mt-3 pt-5" id="inicio">Crea tu tienda online <br>desde tu telefono móvil</h1>
+
+        <a href="#" id="normalAzul" class="btn btn-primary  btn-sm text-nowrap px-5">
+          <img class="pe-3"src="assets/img/png/icono-mercado.png" alt="iconoMercado" width="45vw">Quiero MercApp</a>
+        </div>
     </header>
+  </div>
+  
+  <main>
+    <section class="seccion1 ">
 
-    <main>
+      <div class="container-fluid mt-2 pt-2">
 
-        <section class="seccion1">
+        <div class="row">
 
-            <img src="assets/img/png/Logo-Vector-Blanco.png" alt="logo">
-            <img src="assets/img/png/imagen1.png" alt="imgChico">
-
-            <article>
-                <section>
-                    <h2><span>Crea tu tienda</span> online <br> desde tu <span>telefono móvil 
-                    </span></h2>
-                    <p>Usa la app de mensajería de tu preferencia</p>
-                </section>
-                <section>
-                    <button type="button">
-                        <img src="assets/img/vector/icono-whatsapp.svg" alt="iconoWhatsApp">
-                        WhatsApp</button>
-
-                    <button type="button">
-                        <img src="assets/img/vector/icono-telegram.svg" alt="iconoTelegram">
-                        Telegram</button>
-                </section>
-                <section>
-                    <img src="assets/img/png/imagen-envia-whatsapp.png" alt="enviaWhatsApp">
-                    <p>Envia un WhatsApp <br>
-                        <span>con la palabra Hola</span><br>
-                        al +34 652.436.305</p>
-                </section>
-                <section>
-                    <h6>Tienes una duda?</h6>
-                    <p>Te ayudamos,<span>clic aqui.</span>
-                    </p>
-                    <img src="assets/img/png/imagen-dudas.png" alt="imgDudas">
-                </section>
-            </article>
-        </section>
-        <div>
-            <img src="assets/img/vector/icono-worlwide.svg" alt="planeta">
-            <h6>Presencia en <span>18 Paises</span></h6>
-        </div>
-        <div>
-            <img src="assets/img/vector/icono-tiendas.svg" alt="imgTienda">
-            <h6><span>+1.000</span>Tiendas Creadas</h6>
-        </div>
-        <div>
-            <img src="assets/img/vector/icono-productos.svg" alt="productos">
-            <h6><span>+20.000</span>Productos</h6>
-        </div>
-        <section class="seccion2">
-
-        </section>
-        <section class="seccion3">
-            <h2 id="como">¿como funciona?</h2>
-            <div>
-                <img src="assets/img/png/imagen2.png" alt="tablet">
+            <div class="col-md-6 "><img src="assets/img/png/imagen1.png" alt="imgChico" width="100%">
             </div>
-            <article>
-                <img src="assets/img/vector/icono-1.svg" alt="uno">
-                <h4>Somos una app, pero en WhatsApp y Telegram</h4>
-                <p>MercApp es una heramienta que puede ser utilizada de una forma sencilla por cualquier tienda, pyme o negocio en sólo 6 respuestas a un WhatsApp o Telegram.</p>
-                <p>Luego puedes introducir tus productos, eso se hace de dos maneras con tres respuestas por producto:</p>
-               <img src="assets/img/vector/imagen-producto.svg" alt="producto">
-              <div><hr>o<hr></div>
-               <img src="assets/img/vector/imagen-productos.svg" alt="productos">
-            </article>
-        </section>
+          
+          <div class="col-md-6 ">
+           
+                  <h2 class="mx-3"><span class="text-primary">Crea tu tienda</span> online <br> desde tu
+                      <span class="text-primary">teléfono móvil</span>
+                  </h2>
+                  <p class="pBig mx-3">Usa la app de mensajería de tu preferencia</p>
 
-        <section class="seccion4"></section>
-        <section class="seccion5"></section>
-        <section class="seccion6"></section>
-        <section class="seccion7"></section>
-        <section class="seccion8"></section>
-        <section class="seccion9"></section>
-        <section class="seccion10"></section>
-        <section class="seccion11"></section>
+                  <div class="d-flex justify-content-between mt-4" >
 
-    </main>
+                      <button type="button" id="normalWhatsApp" class="btn btn-success px-5 ms-3 mb-2">
+                          <img
+                              src="assets/img/vector/icono-whatsapp.svg" alt="iconoWhatsApp">
+                              WhatsApp</button>
+                  
+                  
+                      <button type="button" id="normalTelegram" class="btn btn-primary px-5 me-4 mb-2 ">
+                          <img
+                              src="assets/img/vector/icono-telegram.svg" alt="iconoTelegram">
+                              Telegram</button>
+                    </div> 
+                  
 
-    <footer></footer>
+              <div id="fondoEnviaWhatsApp" class="d-flex justify-content-evenly ">
+
+                <img src="assets/img/png/imagen-envia-whatsapp.png" alt="enviaWhatsApp">
+
+                  <div class="align-self-center p-5 mt-3 ">
+                      <p class="p"><span class="pBold">Envia un WhatsApp</span><br>con la palabra Hola<span class="pBigBold"><br>
+                              al +34 652.436.305</span></p>
+                            </div> 
+              </div>
+
+              <div id="fondoDudas" class="d-flex justify-content-around">
+
+                <div class="align-self-center p-5 mt-3">
+                  <h6 class="text-white fs-5">Tienes una duda?</h6>
+                  
+                      <p class="p fs-6">Te ayudamos,<span class="pBigBold fs-6"> clic aqui.</span></p>
+                    </div>
+
+                  <img src="assets/img/png/imagen-dudas.png" alt="imgDudas"> 
+
+          </div>
+      </div>
+  </div>
+</section>
+
+
+    <section id="seccion2And" class="seccion2">
+
+      <div class="container-fluid  m-5 p-5">
+
+        <div class="row justify-content-evenly">
+
+            <div class="col-md-auto ">
+              
+                <img  class="float-start" src="assets/img/vector/icono-worlwide.svg" alt="planeta">
+
+                <h6 class="float-end p-4">Presencia en <br><span class="text-primary fs-4">18 Paises</span>
+                </h6>
+              
+            </div>
+            <div class="col-md-auto ">
+              
+                <img class="float-start" src="assets/img/vector/icono-tiendas.svg" alt="imgTienda">
+
+                <h6 class="float-end p-3"><span class="text-primary fs-4">+1.000</span><br>Tiendas<br> Creadas
+                </h6>
+              
+            </div>
+            <div class="col-md-auto ">
+             
+                <img class="float-start" src="assets/img/vector/icono-productos.svg" alt="productos">
+
+                <h6 class="float-end p-4"><span class="text-primary fs-4">+20.000</span><br>Productos</h6>
+              
+            </div>
+        </div>
+    </div>
+</section>
+   
+    <section class="seccion3">
+
+      <h2 id="como" class="text-primary text-center mt-5 mb-2 pb-2 pt-5">¿Cómo funciona?</h2>
+
+      <div class="container-fluid">
+
+      <div class="row">
+
+          <div class="col-md-6">
+              <img class="img-fluid align-middle mt-5 pt-5" src="assets/img/png/imagen2.png" alt="tablet" >
+      </div>
+
+      <div class="col-md-6">
+        
+         <div id="cardAnd" class="card p-4 m-4">
+     
+          <img class="img-fluid float-start ms-3" src="assets/img/vector/icono-1.svg" alt="uno" width="40px" >
+      <div class="card-body">
+
+          <h4 class="card-title">Somos una app,<br> pero en WhatsApp y Telegram</h4>
+          <p  class="pComoFunciona card-text">
+              MercApp es una heramienta que puede ser utilizada de una forma sencilla por cualquier tienda,
+              pyme o negocio en sólo 6 respuestas a un WhatsApp o Telegram.</p>
+          <p class="pComoFunciona card-text">Luego puedes introducir tus productos, eso se hace de dos maneras con tres respuestas por
+              producto:</p>
+          </div>
+          
+          <img class="card-img-bottom mb-4" src="assets/img/vector/imagen-producto.svg" alt="producto">
+
+              <div class="d-inline-flex">
+          <div id="comoHr"></div><span>o</span><div id="comoHr2"></div>
+              </div>
+
+          <img class="card-img-bottom mt-4" src="assets/img/vector/imagen-productos.svg" alt="productos">
+
+      </div>
+      </div>
+      </div>
+  </section>
+    </section>
+    <section class="seccion4"></section>
+    <section class="seccion5"></section>
+    <section class="seccion6"></section>
+    <section class="seccion7"></section>
+    <section class="seccion8"></section>
+    <section class="seccion9"></section>
+    <section class="seccion10"></section>
+    <section class="seccion11"></section>
+
+  </main>
+
+  <footer></footer>
 </body>
 
 <!-- JavaScript Bundle with Popper -->
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-    crossorigin="anonymous"></script>
+  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 
 </html>

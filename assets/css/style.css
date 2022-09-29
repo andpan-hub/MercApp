@@ -1,6 +1,3 @@
-    /* Página */
-
-
 html {
     --azul-light: #F5F8FF;
     --azul-regular: #114AD6;
@@ -11,138 +8,394 @@ html {
     --naranja-regular: #F95F00;
     --narnaja-bold: #EE1D02;
     --negro: #11131C;
-    }
-    
-/*background: #F5F5F5;*/
+}
 
-/* H1 */
+/* Fuentes texto */
+@font-face {
+    font-family: FiraSans-Heavy;
+    src: url("assets/font/FiraSans-Heavy.OTF");
+}
 
+@font-face {
+    font-family: FiraSan-Regular;
+    src: url("assets/font/FiraSans-Regular.OTF");
+}
+
+@font-face {
+    font-family: Monserrat-bold;
+    src: url("assets/font/MONSERRAT-BOLD.OTF");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Monserrat-bolder;
+    src: url("assets/font/MONSERRAT-EXTRABOLD.OTF");
+    font-weight: bolder;
+}
+
+
+body {
+    background-color: #F5F5F5;
+}
+
+
+#imgDegradado {
+    position: fixed;
+    z-index: 150;
+}
+
+#imgHeader {
+    z-index: -1;
+}
+
+/* estilo del div que envuelve h1 y boton en header */
+#cajaBtnAnd {
+    display: grid;
+    height: max-content;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto;
+    justify-items: center;
+    position:relative;
+
+}
+
+/* estilo h1 header  */
+#inicio {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3.5vw;
+    /* font-size:38px; */
+    /* line-height: 46px; */
+    /* color: var(--negro); */
+   position: absolute;
+   bottom:18vw;
+   margin-bottom: 3vw;
+}
+
+/* estilo boton header  */
+#normalAzul {
+    color: white;
+    background-color: var(--azul-regular);
+    border-radius: 7px;
+    width: min-content;
+    position: absolute;
+    bottom:13vw;
+}
+
+p {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height*/
+    color: var(--negro);
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 41px;
+    color: var(--negro);
+}
+
+h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    /* identical to box height*/
+    color: var(--negro);
+}
+
+/* estilo h2 de la tercera seccion */
+#como {
+    color: var(--azul-bold);
+}
+
+h6 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: var(--negro);
+    letter-spacing: 0.1vw;
+
+}
+
+.pBig {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--negro);
+    letter-spacing: 0.1%;
+}
+
+p span {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: var(--negro);
+    letter-spacing: 0.1%;
+}
+
+.p {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: var(--naranja-light);
+    letter-spacing: 0.1vw;
+}
+
+/* estilo boton de whatsapp */
+#normalWhatsApp {
+    background: #3CC763;
+    border-radius: 7px;
+}
+
+/* estilo boton de telegram */
+#normalTelegram {
+    background: #28BFFF;
+    border-radius: 7px;
+}
+
+/* estilo del div que envuelve boton de whatsapp */
+#fondoEnviaWhatsApp {
+    height: 12vw;
+    background-color: #3CC763;
+    margin: 2vw;
+    border-radius: 7px;
+    z-index: 0;
+    text-align: center;
+}
+
+/* estilo del div que envuelve boton de telegram */
+#fondoDudas {
+    height: 12vw;
+    background-color: #3CC763;
+    margin: 2vw;
+    border-radius: 7px;
+    z-index: 0;
+    background-color: #F95F00;
+    text-align: center;
+}
+
+/* estilo img caja boton whatsapp */
+#fondoEnviaWhatsApp img {
+    z-index: 10;
+    margin-top: -1vw;
+    margin-left: 2vw;
+}
+
+/* estilo img caja boton telegram */
+#fondoDudas img {
+    z-index: 10;
+    margin-top: -1.7vw;
+    margin-right: 1.5vw;
+}
+
+.pBigBold {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--naranja-light);
+    letter-spacing: 0.1vw;
+}
+
+.pBold {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: var(--naranja-light);
+    letter-spacing: 0.1vw;
+}
+
+/* estilo segunda seccion despues del header */
+#seccion2And {
+    background-color: var(--azul-light);
+    border-radius: 7px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-right: 10%;
+}
+
+/* estilo barra separadora con letra "o" de la tercera seccion despues del header */
+#HrAnd {
+    display: flex;
+}
+
+#HrAnd span {
+    margin-top: 2px;
+}
+
+#comoHr {
+    border-bottom: 1px solid grey;
+    text-align: center;
+    width: 45%;
+    margin: 4px;
+
+}
+
+#comoHr2 {
+    border-bottom: 1px solid grey;
+    margin: 4px;
+    text-align: center;
+    width: 45%;
+
+}
+
+/* estilo tercera seccion lado derecho */
+#cardAnd {
+    background-color: #F5F5F5;
+    border: none;
+}
+
+/* estilo p de la tercera seccion */
+.pComoFunciona {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: var(--negro);
+}
+
+
+
+/* 
+html {
+    --azul-light: #F5F8FF;
+    --azul-regular: #114AD6;
+    --azul-tres: #062EC0;
+    --azul-cuatro: #06238C;
+    --azul-bold: #031A70;
+    --naranja-light: #FFF7F5;
+    --naranja-regular: #F95F00;
+    --narnaja-bold: #EE1D02;
+    --negro: #11131C;
+    }   
+/*background: #F5F5F5;
+/* H1 
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 800;
 font-size: 38px;
 line-height: 46px;
 color: var(--negro);
-
-/* H2 */
+/* H2 
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 800;
 font-size: 34px;
 line-height: 41px;
 color: var(--negro);
-
-
-/* H3 */
+/* H3 
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 800;
 font-size: 30px;
 line-height: 37px;
-/* identical to box height */
+/* identical to box height 
 color: var(--negro);
-
-
-/* H4 */
+/* H4 
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 32px;
-/* identical to box height */
+/* identical to box height 
 color: var(--negro);
-
-
-/* H5 */
+/* H5 
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
 font-size: 22px;
 line-height: 27px;
-/* identical to box height */
+/* identical to box height 
 color: var(--negro);
-
-
-/* H6 */
+/* H6 
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 22px;
-/* identical to box height */
+/* identical to box height 
 color: var(--negro);
-
-
-/* P Big */
+/* P Big 
 font-family: 'Fira Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 19px;
 color: var(--negro);
-
-
-/* P Big Bold */
+/* P Big Bold 
 font-family: 'Fira Sans';
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 19px;
 color: var(--negro);
-
-
-/* P */
+/* P 
 font-family: 'Fira Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 17px;
-/* identical to box height */
+/* identical to box height 
 color: var(--negro);
-
-
-/* P Bold */
+/* P Bold 
 font-family: 'Fira Sans';
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 17px;
-/* identical to box height */
+/* identical to box height 
 color: var(--negro);
-
-
-/* P Small */
+/* P Small 
 font-family: 'Fira Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 11px;
 line-height: 13px;
 color: var(--negro);
-
-
-/* P Small Bold */
+/* P Small Bold 
 font-family: 'Fira Sans';
 font-style: normal;
 font-weight: 700;
 font-size: 11px;
 line-height: 13px;
 color: var(--negro);
-
-
 ---------------------------
-
 --------------------------
-
-button {	/* Normal Azul */
+button {	/* Normal Azul 
 background-color: var(--azul-regular)
 border-radius: 7px; }
 
-button {	/* Normal WhatsApp */
+button {	/* Normal WhatsApp 
 background: #3CC763;
 border-radius: 7px; }
 
-button {	/* Normal Telegram */
+button {	/* Normal Telegram 
 background: #28BFFF;
 border-radius: 7px; }
-
-

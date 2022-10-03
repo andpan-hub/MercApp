@@ -3,7 +3,7 @@ Proyecto prácticas
 
 ## Contenido:
 
-Este proyecto deberia tener dos branches : master y develop (o desarollo o algo parecido). **develop** contendria las versiones de pruebas.
+Landing page del prototipo de MercApp.
 
 ## Prototipo para el proiecto:
 

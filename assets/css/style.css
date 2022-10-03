@@ -55,7 +55,7 @@ body {
     grid-template-rows: auto auto;
     grid-template-columns: auto;
     justify-items: center;
-    position:relative;
+    position: relative;
 
 }
 
@@ -68,9 +68,9 @@ body {
     /* font-size:38px; */
     /* line-height: 46px; */
     /* color: var(--negro); */
-   position: absolute;
-   bottom:18vw;
-   margin-bottom: 3vw;
+    position: absolute;
+    bottom: 18vw;
+    margin-bottom: 3vw;
 }
 
 /* estilo boton header  */
@@ -80,7 +80,7 @@ body {
     border-radius: 7px;
     width: min-content;
     position: absolute;
-    bottom:13vw;
+    bottom: 13vw;
 }
 
 p {
@@ -403,23 +403,23 @@ border-radius: 7px; }
     /* Página */
 
 
-    html {
-        --azul-light: #F5F8FF;
-        --azul-regular: #114AD6;
-        --azul-tres: #062EC0;
-        --azul-cuatro: #06238C;
-        --azul-bold: #031A70;
-        --naranja-light: #FFF7F5;
-        --naranja-regular: #F95F00;
-        --narnaja-bold: #EE1D02;
-        --negro: #11131C;
-    }
+html {
+    --azul-light: #F5F8FF;
+    --azul-regular: #114AD6;
+    --azul-tres: #062EC0;
+    --azul-cuatro: #06238C;
+    --azul-bold: #031A70;
+    --naranja-light: #FFF7F5;
+    --naranja-regular: #F95F00;
+    --narnaja-bold: #EE1D02;
+    --negro: #11131C;
+}
 
-    /*---------------------------------------*/
+/*---------------------------------------*/
 
-    /* aca se incorporo los font al proyecto*/
-    /* La regla arroba de CSS especifica una fuente personalizada con la que mostrar el texto; la fuente se puede cargar desde un servidor remoto o una fuente instalada localmente en la propia computadora del usuario.@font-face*/
-    /* Entonces se coloca @font-face y el nombre de ese tipo de letraque le querramos poner.  Luego se coloca el src: url de ese tipo de letra de la misma forma como buscariamos una imagen en una carpeta, o sea  escribimos src:url() y dentro de los parentisis buscamos el archivo url de esa letra./ */
+/* aca se incorporo los font al proyecto*/
+/* La regla arroba de CSS especifica una fuente personalizada con la que mostrar el texto; la fuente se puede cargar desde un servidor remoto o una fuente instalada localmente en la propia computadora del usuario.@font-face*/
+/* Entonces se coloca @font-face y el nombre de ese tipo de letraque le querramos poner.  Luego se coloca el src: url de ese tipo de letra de la misma forma como buscariamos una imagen en una carpeta, o sea  escribimos src:url() y dentro de los parentisis buscamos el archivo url de esa letra./ */
 
 /* ------------------------------------------------------*/
 /* ESTILOS SESIONES 4, 5, 6, 7 Y 8*/
@@ -429,6 +429,13 @@ border-radius: 7px; }
 /* ESTILOS de sesion 4*/
 /* -------------------*/
 /*se usaron las siguientes clases margenIcono pesoText  gruesoText gruesoh2*/
+.tresMoviles {
+    Width: 737px;
+    Height: 462px
+}
+
+
+
 .margenIcono {
     margin-bottom: 30px;
     margin-top: 30px;
@@ -442,7 +449,6 @@ border-radius: 7px; }
     font-weight: 400;
     font-size: 16px;
     line-height: 17px;
-
 }
 
 .gruesoText {
@@ -481,7 +487,7 @@ para dar un poco mas de oscuridad a las letras y para y para dar un poco de marg
 /* ESTILOS de sesion 6*/
 /* -------------------*/
 
-/* para la sesion 6 se usaron las  clases liEstilo (poder quitar las viñetas de puntos) y ls clases h2 topText gruesoh2    */
+/* para la sesion 6 se usaron las  clases  bottonImagenliEstilo (poder quitar las viñetas de puntos) y ls clases h2 topText gruesoh2    */
 
 .liEstilo {
     list-style: none;
@@ -489,11 +495,11 @@ para dar un poco mas de oscuridad a las letras y para y para dar un poco de marg
 }
 
 .bottonImagen {
-    margin-bottom: 150px;
+    margin-bottom: 30px;
 }
 
 .topImagen {
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 
@@ -506,10 +512,10 @@ para dar un poco mas de oscuridad a las letras y para y para dar un poco de marg
 /* -------------------*/
 /* ESTILOS de sesion 8*/
 /* -------------------*/
-/* se creó y utilizó la clase  fondoSesion8 .centrarContenido botonSesion8 imagenBotonSesion8   .colorText  colorTextSesoon8 logoNegro8 margenText8  gruesoText8*/
-/* colorText  gruesoText8  .colorTextSesion8 */
-.bottonImagen{
-    background-color:#F5F8FF;
+/* se utilizaron lasclases bottonImagen fondoSesion8 .centrarContenido botonSesion8 imagenBotonSesion8   .colorText  colorTextSesion8 logoNegro8 margenText8  gruesoText8  margenLogo  */
+
+.bottonImagen {
+    background-color: #F5F8FF;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -530,12 +536,11 @@ para dar un poco mas de oscuridad a las letras y para y para dar un poco de marg
     padding-bottom: 5px;
     background-color: #114AD6;
     margin-bottom: 30px;
-
 }
 
 .imagenBotonSesion8 {
     margin-right: 15px;
-
+    margin: center;
 }
 
 .colorText {
@@ -546,11 +551,9 @@ para dar un poco mas de oscuridad a las letras y para y para dar un poco de marg
 .colorTextSesoon8 {
     color: #11131C;
     font-weight: 800;
-
 }
 
 .logoNegro8 {
-
     margin-top: 1px;
 }
 
@@ -563,13 +566,9 @@ para dar un poco mas de oscuridad a las letras y para y para dar un poco de marg
     font-family: "Montserrat-bolder";
 }
 
-.logoMargen {
-    padding-left: 200px;
+.margenLogo {
+    margin-left: 150px;
 }
-
-/* .margenLogo{
-   margin-left:100px ;
-} */
 
 /* ------------------------------------------------------*/
 /* FIN DE ESTILOS SESIONES 4, 5, 6, 7 Y 8*/
@@ -579,132 +578,131 @@ para dar un poco mas de oscuridad a las letras y para y para dar un poco de marg
 
 /* H1 */
 
-font-family: 'Montserrat';
+/* font-family: 'Montserrat';
 font-style: normal;
 font-weight: 800;
 font-size: 38px;
 line-height: 46px;
-color: var(--negro);
+color: var(--negro); */
 
 /* H2 */
-font-family: 'Montserrat';
+/* font-family: 'Montserrat';
 font-style: normal;
 font-weight: 800;
 font-size: 34px;
 line-height: 41px;
-color: var(--negro);
+color: var(--negro); */
 
 
 /* H3 */
-font-family: 'Montserrat';
+/* font-family: 'Montserrat';
 font-style: normal;
 font-weight: 800;
 font-size: 30px;
-line-height: 37px;
+line-height: 37px; */
 /* identical to box height */
-color: var(--negro);
+/* color: var(--negro); */
 
 
 /* H4 */
-font-family: 'Montserrat';
+/* font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 32px;
+line-height: 32px; */
 /* identical to box height */
-color: var(--negro);
+/* color: var(--negro); */
 
 
 /* H5 */
-font-family: 'Montserrat';
+/* font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
 font-size: 22px;
-line-height: 27px;
+line-height: 27px; */
 /* identical to box height */
-color: var(--negro);
+/* color: var(--negro); */
 
 
 /* H6 */
-font-family: 'Montserrat';
+/* font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
-line-height: 22px;
+line-height: 22px; */
 /* identical to box height */
-color: var(--negro);
+/* color: var(--negro); */
 
 
 /* P Big */
-font-family: 'Fira Sans';
+/* font-family: 'Fira Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 19px;
-color: var(--negro);
+color: var(--negro); */
 
 
 /* P Big Bold */
-font-family: 'Fira Sans';
+/* font-family: 'Fira Sans';
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 19px;
-color: var(--negro);
+color: var(--negro); */
 
 
 /* P */
-font-family: 'Fira Sans';
+/* font-family: 'Fira Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 17px;
+line-height: 17px; */
 /* identical to box height */
-color: var(--negro);
+/* color: var(--negro); */
 
 
 /* P Bold */
-font-family: 'Fira Sans';
+/* font-family: 'Fira Sans';
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
-line-height: 17px;
+line-height: 17px; */
 /* identical to box height */
-color: var(--negro);
+/* color: var(--negro); */
 
 
 /* P Small */
-font-family: 'Fira Sans';
+/* font-family: 'Fira Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 11px;
 line-height: 13px;
-color: var(--negro);
+color: var(--negro); */
 
 
 /* P Small Bold */
-font-family: 'Fira Sans';
+/* font-family: 'Fira Sans';
 font-style: normal;
 font-weight: 700;
 font-size: 11px;
 line-height: 13px;
-color: var(--negro);
+color: var(--negro); */
 
 
---------------------------- -------------------------- button {
-    /* Normal Azul */
-    background-color: var(--azul-regular) border-radius: 7px;
-}
+/* button { */
+/* Normal Azul */
+/* background-color: var(--azul-regular) border-radius: 7px;
+} */
 
-button {
-    /* Normal WhatsApp */
-    background: #3CC763;
+/* button { */
+/* Normal WhatsApp */
+/* background: #3CC763;
     border-radius: 7px;
-}
+} */
 
-button {
-    /* Normal Telegram */
-    background: #28BFFF;
-    border-radius: 7px;
-}
-
+/* button { */
+/* Normal Telegram */
+/* background: #28BFFF;
+    border-radius: 7px; */
+/* } */

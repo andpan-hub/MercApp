@@ -7,7 +7,7 @@ Este proyecto deberia tener dos branches : master y develop (o desarollo o algo 
 
 ## Prototipo para el proiecto:
 
-Si quieres ver el prototipo de este proyecto ,puedes visitar [Prototipo MercApp](www.figma.com.)
+Si quieres ver el prototipo de este proyecto ,puedes visitar [Prototipo MercApp](www.figma.com.) en www.figma.com.
 
 ## Como hacer un clon:
 

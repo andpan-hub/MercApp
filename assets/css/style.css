@@ -706,3 +706,88 @@ color: var(--negro); */
 /* background: #28BFFF;
     border-radius: 7px; */
 /* } */
+
+
+
+
+/* =================== Anjara ====================== */
+
+/* ======== Fonts ======== */
+/* @font-face {
+    font-family: FiraSans-Regular;
+    src: url("../font/FiraSans-Regular.otf");
+}
+
+@font-face {
+    font-family: FiraSans-Heavy;
+    src: url("../font/FiraSans-Heavy.otf");
+}
+
+@font-face {
+    font-family: Montserrat-bold;
+    src: url("../font/MONTSERRAT-BOLD.OTF");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Montserrat-bolder;
+    src: url("../font/MONTSERRAT-EXTRABOLD.OTF");
+    font-weight: bolder;
+}
+
+*{padding: 0; margin: 0;}
+
+body{background-color: #F5F5F5;}
+ */
+/* ======== Section 9 Carousel ======== */
+section.seccion9{
+    background-color: #F4F5F9;
+    height: 390px;
+}
+
+    #carouselAnj{ text-align: center;}
+
+    img.botonFlecha{width: 50px; height: 50px;}
+
+/* ======== Section 10  ======== */
+.seccion10{background-color: #F5F8FF;}
+
+h2{
+    font-family: Montserrat-bolder;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 46px;
+}
+
+span{color: #114AD6;}
+
+/* ======== Footer ======== */
+footer{background-color: #031A70;}
+
+    address, li{
+        font-family: FiraSans-Regular;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+        footer li a{
+            font-family: FiraSans-Regular;
+            font-style: normal;
+            color:white;
+            text-decoration: none;
+        }
+
+    /* div.leyes{ margin-left: 50px;}  */
+
+    a.whatsaap{margin-left: -15px;}
+
+    /* a.redes {margin-left: 5px;} */
+    p{
+        font-family: FiraSans-Regular;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 13px;
+    }
+/* ====================== Fin Anjara ====================== */

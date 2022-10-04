@@ -710,7 +710,7 @@ color: var(--negro); */
 
 
 
-/* =================== Anjara ====================== */
+/* ================================================  Anjara  ================================================*/
 
 /* ======== Fonts ======== */
 /* @font-face {
@@ -737,30 +737,52 @@ color: var(--negro); */
 
 *{padding: 0; margin: 0;}
 
-body{background-color: #F5F5F5;}
- */
+body{background-color: #F5F5F5;} */
+
+
 /* ======== Section 9 Carousel ======== */
 section.seccion9{
     background-color: #F4F5F9;
-    height: 390px;
+    height: auto;
 }
+    #carouselAnj{text-align: center;}
 
-    #carouselAnj{ text-align: center;}
+    img.imgCarousel{
+        width: 50%;
+        min-width: 200px;
+        max-width: 250px;
+        height: auto;
+    }
 
     img.botonFlecha{width: 50px; height: 50px;}
+
 
 /* ======== Section 10  ======== */
 .seccion10{background-color: #F5F8FF;}
 
-h2{
-    font-family: Montserrat-bolder;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 38px;
-    line-height: 46px;
+    h2{
+        font-family: Montserrat-bolder;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    span{color: #114AD6;}
+
+    div.mercappEnLosMedios{
+        min-width: 250px;
+        max-width: 350px;
+    }
+
+
+/* ======== Section 11  ======== */
+
+div.comentariosClientes{
+    min-width: 200px;
+    max-width: 250px;
 }
 
-span{color: #114AD6;}
 
 /* ======== Footer ======== */
 footer{background-color: #031A70;}
@@ -790,4 +812,5 @@ footer{background-color: #031A70;}
         font-size: 14px;
         line-height: 13px;
     }
+
 /* ====================== Fin Anjara ====================== */

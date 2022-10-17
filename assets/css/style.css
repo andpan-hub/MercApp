@@ -19,9 +19,9 @@ html {
 }
 
 @font-face {
-    font-family: Montserrat-bolder;
-    src: url("../font/MONTSERRAT-EXTRABOLD.OTF");
-    font-weight: bolder;
+
+    font-family: FiraSans-Regular;
+    src: url("assets/font/FiraSans-Regular.OTF");
 }
 
 @font-face {
@@ -33,6 +33,8 @@ html {
     font-family: FiraSans-Regular;
     src: url('../font/FiraSans-Regular.otf');
 }
+
+/* ---- Andrea __principio__---- */ 
 
 body {
     background-color: #F5F5F5;
@@ -59,15 +61,12 @@ body {
 
 }
 
-/* estilo h1 header  */
-#inicio {
-    font-family: 'Montserrat';
-    font-style: normal;
+/* estilo h1 header */
+#h1And {
+    font-family: 'Montserrat-bolder';
+    font-style: bolder;
     font-weight: 800;
-    font-size: 3.5vw;
-    /* font-size:38px; */
-    /* line-height: 46px; */
-    /* color: var(--negro); */
+    font-size: 4vw;
     position: absolute;
     bottom: 18vw;
     margin-bottom: 3vw;
@@ -78,9 +77,10 @@ body {
     color: white;
     background-color: var(--azul-regular);
     border-radius: 7px;
-    width: min-content;
     position: absolute;
-    bottom: 13vw;
+    bottom: 12.5vw;
+
+
 }
 
 p {
@@ -102,19 +102,28 @@ h2 {
     color: var(--negro);
 }
 
+/* primer span del primer h2 */
+.txth2And{
+color:var(--azul-regular);
+}
+
+/* segundo span del primer h2 */
+.txt2h2And{
+color:var(--azul-bold);
+}
+
 h4 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 32px;
-    /* identical to box height*/
     color: var(--negro);
 }
 
 /* estilo h2 de la tercera seccion */
 #como {
-    color: var(--azul-bold);
+    color:var(--azul-regular);
 }
 
 h6 {
@@ -123,7 +132,6 @@ h6 {
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
-    /* identical to box height */
     color: var(--negro);
     letter-spacing: 0.1vw;
 
@@ -145,7 +153,6 @@ p span {
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
     color: var(--negro);
     letter-spacing: 0.1%;
 }
@@ -156,7 +163,6 @@ p span {
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
     color: var(--naranja-light);
     letter-spacing: 0.1vw;
 }
@@ -175,7 +181,7 @@ p span {
 
 /* estilo del div que envuelve boton de whatsapp */
 #fondoEnviaWhatsApp {
-    height: 12vw;
+    height: 13vw;
     background-color: #3CC763;
     margin: 2vw;
     border-radius: 7px;
@@ -185,7 +191,7 @@ p span {
 
 /* estilo del div que envuelve boton de telegram */
 #fondoDudas {
-    height: 12vw;
+    height: 13vw;
     background-color: #3CC763;
     margin: 2vw;
     border-radius: 7px;
@@ -212,10 +218,10 @@ p span {
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 16px; 
     line-height: 19px;
     color: var(--naranja-light);
-    letter-spacing: 0.1vw;
+    
 }
 
 .pBold {
@@ -224,9 +230,8 @@ p span {
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
     color: var(--naranja-light);
-    letter-spacing: 0.1vw;
+    
 }
 
 /* estilo segunda seccion despues del header */
@@ -277,143 +282,12 @@ p span {
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
     color: var(--negro);
 }
 
 
 
-/* 
-html {
-    --azul-light: #F5F8FF;
-    --azul-regular: #114AD6;
-    --azul-tres: #062EC0;
-    --azul-cuatro: #06238C;
-    --azul-bold: #031A70;
-    --naranja-light: #FFF7F5;
-    --naranja-regular: #F95F00;
-    --narnaja-bold: #EE1D02;
-    --negro: #11131C;
-    }   
-/*background: #F5F5F5;
-/* H1 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 800;
-font-size: 38px;
-line-height: 46px;
-color: var(--negro);
-/* H2 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 800;
-font-size: 34px;
-line-height: 41px;
-color: var(--negro);
-/* H3 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 800;
-font-size: 30px;
-line-height: 37px;
-/* identical to box height 
-color: var(--negro);
-/* H4 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 32px;
-/* identical to box height 
-color: var(--negro);
-/* H5 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 27px;
-/* identical to box height 
-color: var(--negro);
-/* H6 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height 
-color: var(--negro);
-/* P Big 
-font-family: 'Fira Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-color: var(--negro);
-/* P Big Bold 
-font-family: 'Fira Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 19px;
-color: var(--negro);
-/* P 
-font-family: 'Fira Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height 
-color: var(--negro);
-/* P Bold 
-font-family: 'Fira Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height 
-color: var(--negro);
-/* P Small 
-font-family: 'Fira Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 11px;
-line-height: 13px;
-color: var(--negro);
-/* P Small Bold 
-font-family: 'Fira Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 11px;
-line-height: 13px;
-color: var(--negro);
----------------------------
---------------------------
-button {	/* Normal Azul 
-background-color: var(--azul-regular)
-border-radius: 7px; }
 
-button {	/* Normal WhatsApp 
-background: #3CC763;
-border-radius: 7px; }
-
-button {	/* Normal Telegram 
-background: #28BFFF;
-border-radius: 7px; }
-=======
-    /* Página */
-
-
-html {
-    --azul-light: #F5F8FF;
-    --azul-regular: #114AD6;
-    --azul-tres: #062EC0;
-    --azul-cuatro: #06238C;
-    --azul-bold: #031A70;
-    --naranja-light: #FFF7F5;
-    --naranja-regular: #F95F00;
-    --narnaja-bold: #EE1D02;
-    --negro: #11131C;
-}
 
 /*---------------------------------------*/
 
@@ -717,3 +591,112 @@ color: var(--negro); */
 /* background: #28BFFF;
     border-radius: 7px; */
 /* } */
+
+
+
+
+/* ================================================  Anjara  ================================================*/
+
+/* ======== Fonts ======== */
+/* @font-face {
+    font-family: FiraSans-Regular;
+    src: url("../font/FiraSans-Regular.otf");
+}
+
+@font-face {
+    font-family: FiraSans-Heavy;
+    src: url("../font/FiraSans-Heavy.otf");
+}
+
+@font-face {
+    font-family: Montserrat-bold;
+    src: url("../font/MONTSERRAT-BOLD.OTF");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Montserrat-bolder;
+    src: url("../font/MONTSERRAT-EXTRABOLD.OTF");
+    font-weight: bolder;
+}
+
+*{padding: 0; margin: 0;}
+
+body{background-color: #F5F5F5;} */
+
+
+/* ======== Section 9 Carousel ======== */
+section.seccion9{
+    background-color: #F4F5F9;
+    height: auto;
+}
+    #carouselAnj{text-align: center;}
+
+    img.imgCarousel{
+        width: 50%;
+        min-width: 200px;
+        max-width: 250px;
+        height: auto;
+    }
+
+    img.botonFlecha{width: 50px; height: 50px;}
+
+
+/* ======== Section 10  ======== */
+.seccion10{background-color: #F5F8FF;}
+
+    h2{
+        font-family: Montserrat-bolder;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    span{color: #114AD6;}
+
+    div.mercappEnLosMedios{
+        min-width: 250px;
+        max-width: 350px;
+    }
+
+
+/* ======== Section 11  ======== */
+
+div.comentariosClientes{
+    min-width: 200px;
+    max-width: 250px;
+}
+
+
+/* ======== Footer ======== */
+footer{background-color: #031A70;}
+
+    address, li{
+        font-family: FiraSans-Regular;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+        footer li a{
+            font-family: FiraSans-Regular;
+            font-style: normal;
+            color:white;
+            text-decoration: none;
+        }
+
+    /* div.leyes{ margin-left: 50px;}  */
+
+    a.whatsaap{margin-left: -15px;}
+
+    /* a.redes {margin-left: 5px;} */
+    p{
+        font-family: FiraSans-Regular;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 13px;
+    }
+
+/* ====================== Fin Anjara ====================== */
+
